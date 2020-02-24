@@ -16,13 +16,12 @@ public class Mohist {
 
     public static final String NAME = "Mohist";
     public static final String VERSION = "1.1";
-    public static final String LIB_VERSION = "1";
 
     public static String getVersion() {
         return Mohist.class.getPackage().getImplementationVersion() != null ? Metrics.class.getPackage().getImplementationVersion() : "unknown";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         MohistConfigUtil.copyMohistConfig();
 
         ServerEula eula = new ServerEula(new File("eula.txt"));
@@ -33,12 +32,7 @@ public class Mohist {
         }
         if (Update.isCheckVersion()) {
             Update.hasLatestVersion();
-        }
-        if (Update.getLibrariesVersion()) {
-            System.out.println(Message.getString("mohist.start.error.nothavelibrary"));
             DownloadLibraries.run();
-            System.out.println(Message.getString("file.ok"));
-            return;
         }
         Class<?> launchwrapper = null;
         try

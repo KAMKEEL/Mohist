@@ -2,7 +2,7 @@
 
 ## Mohist-1.7.10
 
-## The upstream project is UrniumMC!
+## The upstream project is UraniumMC!
 
 [![](https://ci.codemc.org/buildStatus/icon?job=Mohist-Community%2FMohist-1.7.10)](https://ci.codemc.org/job/Mohist-Community/job/Mohist-1.7.10/)
 ![](https://img.shields.io/github/stars/Mohist-Community/Mohist.svg?label=Stars)
@@ -17,12 +17,8 @@
    [**Home**](https://mohist.red/)
    [**bStats**](https://bstats.org/plugin/bukkit/Mohist)
    [**Discord**](https://discord.gg/JPF68ZM)
-   [**QQ**](https://jq.qq.com/?_wv=1027&k=5YIRYnH)  
    
    <img src="https://bstats.org/signatures/bukkit/Mohist.svg">
-
-### Download
-* [**Jenkins**](https://ci.codemc.org/job/Mohist-Community/job/Mohist-1.7.10/)
 
 ### Building
 * Checkout project
@@ -42,7 +38,3 @@
 All builds will be in `.\Mohist\build\distributions\`
 
 Mohist-xxxxx-server.jar - is the server we should run it
-
-
-### 中国用户捐赠二维码(备注信息便于记录)
-<img src="https://i.loli.net/2019/11/04/PkybBF1puUwCz6l.png">
